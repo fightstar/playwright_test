@@ -1,0 +1,19 @@
+{
+  "name": "project_herokuapp_ui_tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:e2e": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "install:browsers": "npx playwright install --with-deps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.0",
+    "typescript": "^5.9.3"
+  }
+}
